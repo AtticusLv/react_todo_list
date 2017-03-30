@@ -1,0 +1,47 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "This is a to do list practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --inline --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtticusLv/Webpack_Practice.git"
+  },
+  "keywords": [
+    "webpack",
+    "practice",
+    "react"
+  ],
+  "author": "Atticus Lv <lvatticus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AtticusLv/Webpack_Practice/issues"
+  },
+  "homepage": "https://github.com/AtticusLv/Webpack_Practice#readme",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "sass": "^0.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.5.8",
+    "babel-loader": "^5.1.4",
+    "css-loader": "^0.14.5",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.4",
+    "jsx-loader": "^0.13.2",
+    "node-libs-browser": "^0.5.2",
+    "node-sass": "^3.2.0",
+    "react-redux": "^5.0.1",
+    "sass-loader": "^1.0.4",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}

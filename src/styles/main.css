@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.ListBox{
+  margin: 20px auto 20px;
+  h1{
+    text-align: center;
+    font-size: 2em;
+  }
+}
+
+.ListForm {
+  margin-bottom: 20px;
+    div{
+    width: 300px;
+    margin: 0 auto 10px;
+    input{
+      display: block;
+      width: 100%;
+      line-height: 30px;
+      outline: none;
+      border: none;
+      border-bottom: 1px dashed #ccc;
+      font-size: 16px;
+    }
+    textarea{
+      border: none;
+      width: 100%;
+      outline: none;
+      font-size: 16px;
+      border-bottom: 1px dashed #ccc;
+      height: 100px;
+    }
+  }
+  .submit-btn{
+    display: block;
+    width: 300px;
+    line-height: 45px;
+    border: none;
+    margin: 20px auto;
+    outline: none;
+    background-color: #77d277;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    &:hover{
+      background-color: #57a057;
+  }
+  }
+}
+
+.List{
+  width: 300px;
+  margin: 20px auto;
+  h2{
+    margin: 0 auto 0;
+    text-align: center;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+  }
+  p{
+    margin: 0 auto 10px;
+    outline: none;
+  }
+}
+
+.todo{
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 15px;
+    position: relative;
+    .delete{
+      color: red;
+      position: absolute;
+      right: 0;
+      top: 0px;
+      cursor: pointer;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      &:hover{
+        background-color: #eee;
+      }
+    }
+    h2{
+      margin: 0 auto 0;
+      text-align: center;
+      border: none;
+      width: 100%;
+      outline: none;
+      font-size: 20px;
+    }
+    p{
+      margin: 0 auto 10px;
+    }
+}
